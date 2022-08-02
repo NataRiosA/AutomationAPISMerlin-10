@@ -66,7 +66,7 @@ public class SanitySteps {
     @When("^se ejecuta la api configurado para la ejecucion de la automatizacion caso seis$")
     public void seEjecutaLaApiConfiguradoParaLaEjecucionDeLaAutomatizacionCasoSeis() {
         resultAutomation.ExecuteAutomation(testCasesActions.SuspensionRoboPerdidaEnLineaPortada());
-        resultAutomation.ExecuteAutomation(testCasesActions.ConsultarLineaDetalles(""));
+        resultAutomation.ExecuteAutomation(testCasesActions.ConsultarLineaDetalles("Suspendido con Cargo Basico"));
     }
 
     // caso 7
