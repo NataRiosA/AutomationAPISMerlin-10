@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.indra.runners.SanityRunners" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="22LAP5CD1195R94" time="0.0">
+<testsuite name="com.indra.runners.SanityRunners" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="22LAP5CD1195RQX" time="0.0">
   <properties/>
-  <system-out><![CDATA[17:33:12.046 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+  <system-out><![CDATA[08:32:29.452 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -18,9 +18,9 @@
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 
-17:33:12.054 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@c8803f7e
-17:33:12.058 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Sanity Apis Merlin Json
-17:33:12.094 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+08:32:29.498 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@c8803f7e
+08:32:29.514 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Sanity Apis Merlin Json
+08:32:29.974 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -28,38 +28,46 @@
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
                                                                   
 
-TEST STARTED: prueba
--------------------------------------------------------------------(sanity-apis-merlin-json;prueba)
-17:33:12.133 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-17:33:12.133 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-17:33:27.461 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-17:33:27.504 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-17:33:27.512 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@227d13d
-17:33:27.513 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity Apis Merlin Json:prueba
-17:33:27.514 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@227d13d: Generating report for test outcome: Sanity Apis Merlin Json:prueba
-17:33:27.521 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Prueba to file C:\MerlinJsonAutomation\target\site\serenity\b0165cbad8cee2fe1be0ba4892147cd019cebc2439037e9c7c749439d6cee48f.json (using temp file C:\MerlinJsonAutomation\target\site\serenity\b0165cbad8cee2fe1be0ba4892147cd019cebc2439037e9c7c749439d6cee48f.json67296912-ad95-4d57-8655-aa3770e3c3ba)
-17:33:27.549 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity Apis Merlin Json:prueba done
-17:33:27.549 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-17:33:27.549 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 36 ms
-17:33:27.549 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@67cc3d34
-17:33:27.550 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity Apis Merlin Json:prueba
-17:33:27.550 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@67cc3d34: Generating report for test outcome: Sanity Apis Merlin Json:prueba
-17:33:27.550 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR prueba in b0165cbad8cee2fe1be0ba4892147cd019cebc2439037e9c7c749439d6cee48f
-17:33:27.564 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-17:33:27.564 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-17:33:27.567 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity Apis Merlin Json', type='feature' parent = 'null', cardNumber='null'}]
-17:33:27.574 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Prueba-[]: Optional[Requirement{name='Sanity Apis Merlin Json', type='feature' parent = 'null', cardNumber='null'}]
-17:33:27.575 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Prueba-[]: Optional[Requirement{name='Sanity Apis Merlin Json', type='feature' parent = 'null', cardNumber='null'}]
-17:33:27.629 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity Apis Merlin Json:prueba in b0165cbad8cee2fe1be0ba4892147cd019cebc2439037e9c7c749439d6cee48f.html in directory C:\MerlinJsonAutomation\target\site\serenity  
-17:33:27.632 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in b0165cbad8cee2fe1be0ba4892147cd019cebc2439037e9c7c749439d6cee48f.html
-17:33:27.917 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report b0165cbad8cee2fe1be0ba4892147cd019cebc2439037e9c7c749439d6cee48f.html in 285 ms
-17:33:27.917 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity Apis Merlin Json:prueba done
-17:33:27.917 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-17:33:27.917 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 368 ms
+TEST STARTED: Cambio de Pospago a Pospago Generico
+-------------------------------------------------------------------(sanity-apis-merlin-json;cambio-de-pospago-a-pospago-generico)
+08:32:30.464 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+08:32:30.466 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+08:36:00.931 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+08:36:01.193 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+08:36:01.211 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@2ea98ed0
+08:36:01.211 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity Apis Merlin Json:Cambio de Pospago a Pospago Generico
+08:36:01.211 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@2ea98ed0: Generating report for test outcome: Sanity Apis Merlin Json:Cambio de Pospago a Pospago Generico
+08:36:01.252 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Cambio de Pospago a Pospago Generico to file C:\Users\nriosa\Desktop\SanitySemillas\AutomationAPISMerlin 10\target\site\serenity\089a6e70c5c982a98b59f103a6d12c8f1e2d78a859d7b1d19ee39538bc4ba627.json (using temp file C:\Users\nriosa\Desktop\SanitySemillas\AutomationAPISMerlin 10\target\site\serenity\089a6e70c5c982a98b59f103a6d12c8f1e2d78a859d7b1d19ee39538bc4ba627.json8de7a1e7-b62d-41b0-9a4e-e45e61e01b39)
+08:36:01.500 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity Apis Merlin Json:Cambio de Pospago a Pospago Generico done
+08:36:01.500 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+08:36:01.500 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 289 ms
+08:36:01.500 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55c5895e
+08:36:01.512 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity Apis Merlin Json:Cambio de Pospago a Pospago Generico
+08:36:01.512 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@55c5895e: Generating report for test outcome: Sanity Apis Merlin Json:Cambio de Pospago a Pospago Generico
+08:36:01.513 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Cambio de Pospago a Pospago Generico in 089a6e70c5c982a98b59f103a6d12c8f1e2d78a859d7b1d19ee39538bc4ba627
+08:36:01.616 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+08:36:01.616 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+08:36:01.616 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Sanity Apis Merlin Json', type='feature' parent = 'null', cardNumber='null'}]
+08:36:01.649 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Cambio de Pospago a Pospago Generico-[]: Optional[Requirement{name='Sanity Apis Merlin Json', type='feature' parent = 'null', cardNumber='null'}]
+08:36:01.652 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Cambio de Pospago a Pospago Generico-[]: Optional[Requirement{name='Sanity Apis Merlin Json', type='feature' parent = 'null', cardNumber='null'}]
+08:36:01.947 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Sanity Apis Merlin Json:Cambio de Pospago a Pospago Generico in 089a6e70c5c982a98b59f103a6d12c8f1e2d78a859d7b1d19ee39538bc4ba627.html in directory C:\Users\nriosa\Desktop\SanitySemillas\AutomationAPISMerlin 10\target\site\serenity  
+08:36:02.517 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57054<->10.69.42.60:8089 closed
+08:36:02.533 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57058<->10.69.42.60:8089 closed
+08:36:02.533 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57060<->10.69.42.60:8089 closed
+08:36:02.537 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57061<->10.69.42.60:8089 closed
+08:36:02.538 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57062<->10.69.42.60:8089 closed
+08:36:02.540 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57165<->10.69.42.60:8089 closed
+08:36:02.541 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57168<->10.69.42.60:8089 closed
+08:36:02.544 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57169<->10.69.42.60:8089 closed
+08:36:20.855 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 089a6e70c5c982a98b59f103a6d12c8f1e2d78a859d7b1d19ee39538bc4ba627.html
+08:36:22.293 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 089a6e70c5c982a98b59f103a6d12c8f1e2d78a859d7b1d19ee39538bc4ba627.html in 1438 ms
+08:36:22.294 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Sanity Apis Merlin Json:Cambio de Pospago a Pospago Generico done
+08:36:22.294 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+08:36:22.294 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 20794 ms
 
 1 Scenarios (?[32m1 passed?[0m)
-1 Steps (?[32m1 passed?[0m)
-0m15,577s
+3 Steps (?[32m3 passed?[0m)
+3m32,995s
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
