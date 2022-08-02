@@ -58,7 +58,8 @@ public class SanitySteps {
     // caso 5
     @When("^se ejecuta la api configurado para la ejecucion de la automatizacion caso cinco$")
     public void seEjecutaLaApiConfiguradoParaLaEjecucionDeLaAutomatizacionCasoCinco() {
-
+        resultAutomation.ExecuteAutomation(testCasesActions.CambioDeChip_imsi());
+        resultAutomation.ExecuteAutomation(testCasesActions.ConsultarLineaDetalles("Activo"));
     }
 
     // caso 6
