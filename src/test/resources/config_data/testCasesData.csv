@@ -2,7 +2,7 @@
 Cancelacion por solicitud;;;;;;;;
 Reconexion 430;http://10.69.60.141:8280/portal/login?initialURI=%2Fportal%2FCRMPortal%2F;CQ10960370;Tigo.2022*;3052755816;;;;
 Realizar Cancelación de roaming Linea Postpago 5,2;http://10.69.60.141:8280/portal/login?initialURI=%2Fportal%2FCRMPortal%2F;CQ10960370;Tigo.2022*;3052755816;;;;
-Cambio de Pospago a Pospago Generico;http://10.69.60.141:8280/portal/login?initialURI=%2Fportal%2FCRMPortal%2F;CQ10960370;Tigo.2022*;3052755816;;;;
+Cambio de Pospago a Pospago Generico;http://10.69.60.141:8280/portal/login?initialURI=%2Fportal%2FCRMPortal%2F;CQ10960370;Tigo.2022*;3052755816;;;10.69.60.138:22;
 Cambio de Chip (imsi);http://10.69.60.141:8280/portal/login?initialURI=%2Fportal%2FCRMPortal%2F;CQ10960370;Tigo.2022*;3052755816;732111324709817;;;
 Suspensión Robo Perdida en linea portada;http://10.69.60.141:8280/portal/login?initialURI=%2Fportal%2FCRMPortal%2F;CQ10960370;Tigo.2022*;3052755816;;;;
 Reconexión Robo Perdida en linea portada;http://10.69.60.141:8280/portal/login?initialURI=%2Fportal%2FCRMPortal%2F;CQ10960370;Tigo.2022*;3052755816;;;;
